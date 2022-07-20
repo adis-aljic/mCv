@@ -10,6 +10,7 @@
     <meta author="Adis Aljic">
     <title>About me</title>
 
+    <link rel="stylesheet" href="/css/social.css">
     <link rel="stylesheet" href="/css/card.css">
     <link rel="stylesheet" href="/css/main.css">
 
@@ -41,7 +42,8 @@
 
     <ul id="nav">
         <!-- <li class="liBar"><label for="put-cards-down" onclick="func(2)">Home</label></li> -->
-        <li class="liBar"><label for="toggle-card-1" onclick="func(1)">About me</label></li>
+        <li class="liBar"><label for="toggle-card-0" onclick="func(1)">About me</label></li>
+        <li class="liBar"><label for="toggle-card-1" onclick="func(3)">Information</label></li>
         <li class="liBar"><label for="toggle-card-login" onclick="func(0)" >Login</label></li>
       
     </ul>
@@ -50,14 +52,23 @@
     <h1 ><img id="img" src="/pictures/adis_aljic_picture.jpeg " alt="My picture"></h1>
 
 
-    <input type="radio" name="cards" class="card-checkbox" id="toggle-card-1">
+    <input type="radio" name="cards" class="card-checkbox" id="toggle-card-0">
 
     <div class="card">
         <h2> Quick introduction</h2>
         <p id="cardAboutMe"></p>
     </div>
     <input type="radio" name="cards" class="card-checkbox" id="toggle-card-login">
+    <input type="radio" name="cards" class="card-checkbox" id="toggle-card-1">
 
+    <div class="card">
+        <h2>Info card</h2>
+        <br> <br>
+        <div >
+            <img class="imgInfo" src="/pictures/adis_aljic_picture.jpeg" alt="My picture">
+        </div>
+        <div id="info"></div>
+    </div>
     <div class="card">
         <h2>Login page</h2>
         <br>
