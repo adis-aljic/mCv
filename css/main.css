@@ -12,7 +12,7 @@ body {
 }
 
 .uli{
-    list-style: none; /* Remove default bullets */
+    list-style: none; 
   }
 .uli::before {
   content: "\2022";  
@@ -25,6 +25,7 @@ body {
 .liBar:hover{
 transform: scale(1.1);
 color: red;
+cursor: pointer;
 
 }
 #menu {

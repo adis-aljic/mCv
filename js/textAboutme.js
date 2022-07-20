@@ -7,7 +7,9 @@ as well as in teaching Physics.`,
         `In addition I have excellent communication and teambuilding skills which I have developed 
 during my education and part time jobs.` ]
 
-    const info = [`<strong>Birth date: </strong>`,
+    const info = [
+        `<strong>Name: </strong>`,
+        `<strong>Birth date: </strong>`,
         `<strong>Birth place:</strong> `,
         `<strong> Nationality: `,
         `<strong>Phone number: `,
