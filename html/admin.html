@@ -1,0 +1,75 @@
+<!-- login gotov
+bug: neke kartice se ne ciste??
+admin.js ??
+admin.css ??
+
+modifikovanje sadrzaja...naci preko indeksa(indeks+1 da se nadje koji red treba modi)
+nakon toga staviti upisano kao element na tom nizu.
+
+povezivanje baze podataka
+kako se uzima sa inputa i sta dalje ??
+skontati kako dodati karticu posebno a posebno ubaciti u istu karticu
+skontati za brisanje iz arraya..splice? preci na objekte? -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV Adis Aljic Resume">
+    <meta name="keywords" content="CV Resume Adis Aljic">
+    <meta author="Adis Aljic">
+    <title>Admin</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/admin.css">
+    <script src="/js/nav.js"></script>
+</head>
+
+<body>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav1" id="nav1">
+            <ul>
+                <li><a href="/html/index.html">About Me</a></li>
+                <li><a href="/html/experience.html">Experience & <br> <span style="line-height: 25px;">Education</span></a></li>
+                <!-- <li><a href="education.html">Education</a> </li> -->
+                <li><a href="/html/milestones.html">Milestones</a ></li>
+                <li><a href="/html/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- add education -->
+    <div>
+        <form class="class1" action="" method="post">
+        <h1>Add card</h1>
+            <label for="card1">Card: </label>
+            <input type="text" id="card1" required name="cardNam">
+            <button " style="width: 100px; margin-left: 155px;" type="submit" value="Submit">Submit</button>
+
+        </form>
+    </div>
+    <div>
+        <h1>Add education</h1>
+        <form action="" method="post">
+            <label for="cardName">Card name: </label>
+            <input type="text" id="cardName" required name="cardNam">
+
+            <textarea id="education" name="education" required placeholder="Enter education"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
+
+</body>
+
+</html>

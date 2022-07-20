@@ -1,0 +1,146 @@
+<!-- free classes  - for testing
+aa klasa and cardss -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV Adis Aljic Resume">
+    <meta name="keywords" content="CV Resume Adis Aljic">
+    <meta author="Adis Aljic">
+    <title>Experience</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/card.css">
+    <link rel="stylesheet" href="/css/slider.css">
+
+    <script src="/js/nav.js" defer></script>
+
+    <script src="/js/textExperience.js" defer></script>
+    <script src="/js/slider.js" defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav1" id="nav1">
+            <ul>
+                <li><a href="/html/index.html">About Me</a></li>
+                <li><a href="/html/experience.html">Experience & <br> <span style="line-height: 25px;">Education</span></a></li>
+                <li><a href="/html/milestones.html">Milestones</a></li>
+                <li><a href="/html/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <ul id="nav" class="klasa">
+        <li class="1" class="liBar"><label for="put-cards-down" onclick="func(4)">Home</label></li>
+        <li class="2" class="liBar"><label for="toggle-card-edu" onclick="func(6)">Education</label></li>
+        <li class="3" class="liBar"><label for="toggle-card-1" onclick="func(1)">Participated</label></li>
+        <li class="4" class="liBar"><label for="toggle-card-2" onclick="func(2)">Physics professor</label></li>
+        <li class="5" class="liBar"><label for="toggle-card-3" onclick="func(3)">Aditional Experience</label></li>
+        <li class="6" class="liBar"><label for="toggle-card-4" onclick="func(5)">IT Experience</label></li>
+
+    </ul>
+
+    <h1 id="pen-title">Experience and education</h1>
+    <div class="aa">
+
+        <div class="cardss">
+            
+            <input  type="radio" name="cards" class="card-checkbox" id="toggle-card-edu">
+
+        <div class="card" >
+            <h2> Education</h2>
+            <ul id="edu"></ul>
+        </div>
+    </div>
+    <div class="cardss">
+        
+        <input  type="radio" name="cards" class="card-checkbox" id="toggle-card-1">
+
+        <div class="card">
+            <h2> Participated</h2>
+            <ul id="card1exp"></ul>
+        </div>
+    </div>
+    <div class="cardss">
+
+        <input  type="radio" name="cards" class="card-checkbox" id="toggle-card-2">
+
+         <div class="card">
+            <h2>Physics professor 2015-present</h2>
+            <ul id="card2exp"></ul>
+        </div>
+
+        
+    </div>
+    <div class="cardss">
+        
+        <input  type="radio" name="cards" class="card-checkbox" id="toggle-card-3">
+        
+         <div class="card">
+             <h2>Aditional experience</h2>
+            <ul id="card3exp"></ul>
+        </div>
+    </div>
+    <div class="cardss">
+
+        <input  type="radio" name="cards" class="card-checkbox" id="toggle-card-4">
+        <div class="card">
+            <h2>IT experience</h2>
+            <ul id="card4exp"></ul>
+        </div>
+
+        <div class="cardss">
+            
+    <input  type="radio" name="cards" class="card-checkbox" id="put-cards-down">
+</div>
+</div>
+</div>
+    <!-- <div class="sliderDiv">
+        
+        <div class="center-con previous" onclick="plusSlides(-1)">
+            <div class="round">
+                <div id="cta">
+                    <span class="arrow primera next  "></span>
+                    <span class="arrow segunda next   "></span>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="center-con" onclick="plusSlides(1)">
+            <div class="round">
+                <div id="cta">
+                    <span class="arrow primera next "></span>
+                    <span class="arrow segunda next "></span>
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
+
+</body>
+
+
+
+
+
+</html>

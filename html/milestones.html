@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV Adis Aljic Resume">
+    <meta name="keywords" content="CV Resume Adis Aljic">
+    <meta author="Adis Aljic">
+    <title>Milestones</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/card.css">
+    <link rel="stylesheet" href="/css/slider.css">
+
+
+    <script src="/js/nav.js" defer></script>
+    <script src="/js/slider.js" defer></script>
+    <script src="/js/textMilestones.js" defer></script>
+
+
+</head>
+
+<body>
+
+
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav1" id="nav1">
+            <ul>
+                <li><a href="/html/index.html">About Me</a></li>
+                <li><a href="/html/experience.html">Experience & <br> <span style="line-height: 25px;">Education</span></a></li>
+                <li><a href="/html/milestones.html">Milestones</a></li>
+                <li><a href="/html/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <ul id="nav" >
+        <li class="liBar"><label for="put-cards-down" onclick="func(8)" class="fonts">Home</label></li>
+        <li class="liBar"><label for="toggle-card-1" onclick="func(1)" class="fonts">Internship in UKC Tuzla</label></li>
+        <li class="liBar"><label for="toggle-card-2" onclick="func(2)" class="fonts">Physics professor</label></li>
+        <li class="liBar"><label for="toggle-card-3" onclick="func(3)" class="fonts">Elcom Ltd</label></li>
+        <li class="liBar"><label for="toggle-card-5" onclick="func(4)" class="fonts">Private tutor</label></li>
+        <li class="liBar"><label for="toggle-card-4" onclick="func(5)" class="fonts">Summer Jobs</label></li>
+        <li class="liBar"><label for="toggle-card-6" onclick="func(6)" class="fonts">BILD IT</label></li>
+        <li class="liBar"><label for="toggle-card-7" onclick="func(7)" class="fonts">Bibliography</label></li>
+    </ul>
+
+
+    <h1 id="pen-title">MILESTONES AND BIBLIOGRAPHY</h1>
+
+
+    <input type="radio" name="cards" class="card-checkbox" id="toggle-card-1">
+
+    <div class="card">
+        <h2> Internship in UKC Tuzla</h2>
+        <p id="milInt"></p>
+    </div>
+
+
+    <input type="radio" name="cards" class="card-checkbox" id="toggle-card-2">
+
+    <div class="card">
+        <h2>Physics professor</h2>
+        <p id="milPhy"></p>
+    </div>
+
+
+    <input type="radio" name="cards" class="card-checkbox" id="toggle-card-3">
+
+    <div class="card">  
+        <h2>Elcom LTD</h2>
+        <p id="elcom"></p>
+    </div>
+    <input type="radio" name="cards" class="card-checkbox" id="toggle-card-4">
+
+    <div class="card">
+        <h2>Summer jobs</h2>
+        <p id="summerJobs"></p>
+    </div>
+    <input type="radio" name="cards" class="card-checkbox" id="toggle-card-5">
+
+    <div class="card">
+        <h2>Private tutor</h2>
+        <p id="tutor"></p>
+    </div>
+    <input type="radio" name="cards" class="card-checkbox" id="toggle-card-6">
+    <div class="card">
+        <h2>BILD IT</h2>
+        <p id="bild"></p>
+    </div>
+    <input type="radio" name="cards" class="card-checkbox" id="toggle-card-7">
+
+    <div class="card">
+        <h2>Bibliography</h2>
+        <p id="bibl"></p>
+    </div>
+
+
+    <input type="radio" name="cards" class="card-checkbox" id="put-cards-down" >
+
+    <!-- <div class="sliderDiv">
+
+        <div class="center-con previous" >
+            <div class="round">
+                <div id="cta">
+                    <span class="arrow primera next  "></span>
+                    <span class="arrow segunda next   "></span>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="center-con">
+            <div class="round">
+                <div id="cta" >
+                    <span class="arrow primera next "></span>
+                    <span class="arrow segunda next "></span>
+                </div>
+            </div>
+        </div>
+        
+    -->
+</div> 
+
+    <div class="menu-bg" id="menu-bg"></div>
+</body>
+
+
+
+
+
+</html>
