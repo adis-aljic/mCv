@@ -18,10 +18,14 @@ during my education and part time jobs.` ]
 
     switch (parametar) {
         case 0: // login card on index page
+        document.getElementById("info").innerHTML = "";
+
             document.getElementById("cardAboutMe").innerHTML = "";
             break;
             
             case 1: // about me card on index page
+            document.getElementById("info").innerHTML = "";
+
             if (document.getElementById("cardAboutMe").innerHTML == "") {
                 delayTextInCards(aboutMe,"cardAboutMe",400);   
 
@@ -34,7 +38,8 @@ during my education and part time jobs.` ]
             break;
 
         case 3: // information card on contact page
-        
+        document.getElementById("cardAboutMe").innerHTML = ""
+
         if (document.getElementById("info").innerHTML == "") {
             delayTextInCards(info,"info",400);   
             // document.getElementById("addPic").innerHTML = ''
