@@ -4,7 +4,7 @@ function func(parametar) {
     const itExp = [
         `Co-leading two workshop at Tuzla Summer Institute, 2022`,
         `Building website and app in excel for tracking community service hours`,
-        `Creating website as resume`,
+        `Creating resume as website`,
         `Mentoring JavaScript, HTML and CSS`
 
     ]
@@ -31,7 +31,7 @@ function func(parametar) {
     const exp = [
         `Mentor at TSI 2022`,
         `Unpaid internship at University Clinical Center  Tuzla, 2014-2015`,
-        `Part time job at Elcom FontFaceSetLoadEvent, 2008`,
+        `Part time job at Elcom LDT, 2008`,
         `Private tutor for Physics and Math, 2006- present`,
         `Summer jobs in marketing, sales and managmetn 2004- present`,
         `Collecting books for two elementary schools in Tuzla Canton 2015`
@@ -86,7 +86,7 @@ function func(parametar) {
 
             document.getElementById("card2exp").innerHTML = ""
             if (document.getElementById("card3exp").innerHTML == "") {
-                delayTextInCards(itExp,"card3exp",400);   
+                delayTextInCards(exp,"card3exp",400);   
             }
             break;
         case 4:        // put down all cards

@@ -7,11 +7,11 @@ as well as in teaching Physics.`,
         `In addition I have excellent communication and teambuilding skills which I have developed 
 during my education and part time jobs.` ]
 
-    const info = [`<strong>Birth date: </strong>19.September 1989`,
-        `<strong>Birth place:</strong> Tuzla, Bosnia and Herzegovina`,
-        `<strong> Nationality: </strong>Bosnia and Herzegovina`,
-        `<strong>Phone number: </strong> +387 61 656 983`,
-        `<strong>Email: </strong> adis.qm@gmail.com`,
+    const info = [`<strong>Birth date: </strong>`,
+        `<strong>Birth place:</strong> `,
+        `<strong> Nationality: `,
+        `<strong>Phone number: `,
+        `<strong>Email: </strong> `,
         `<strong> Driving license: </strong> B, B1, C, C1`
     ]
 
