@@ -11,6 +11,17 @@ body {
   font-size: 0.85rem;
 }
 
+.uli{
+    list-style: none; /* Remove default bullets */
+  }
+.uli::before {
+  content: "\2022";  
+  color: blue; 
+  display: inline-block; 
+  width: 1rem; 
+  margin-left: -1em; 
+
+}
 .liBar:hover{
 transform: scale(1.1);
 color: red;

@@ -128,7 +128,7 @@ function func(parametar) {
 function delayTextInCards(array,id,interval) {
     let i = 0     
         let time = setInterval(()=>{
-document.getElementById(id).innerHTML += "<li>" + array[i] + "</li>" + "<br> <br>"
+document.getElementById(id).innerHTML += `<li class="uli" >` + array[i] + `</li>` + `<br> <br>`
 
             i++; 
             if(i==array.length){
