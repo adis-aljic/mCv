@@ -31,29 +31,32 @@
                 <li><a href="/html/contact.html">Contact</a></li>
             </ul>
         </nav>
+
     </div>
-    <div class="login">
-        <table cellspacing="2" align="center" cellpadding="8" >
-            <tr>
-                <td>Enter Username :</td>
-                <td><input type="text"  id="email" class="tb" /></td>
-            </tr>
-            <tr>
-                <td>Enter password :</td>
-                <td><input type="password"  id="pwd1" class="tb" /></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td >
-                    <input style="margin: 10px;" type="submit" value="Reset" onclick="clearFunc()" class="btn" />
-                    <input type="submit" value="Login" class="btn" onClick="login()" />
-                </td>
-            </tr>
-        </table>
+    <div class="center">
+        <h1>Login page</h1>
+        <form>
+          <div class="inputbox">
+            <input type="text" required="required" id="email" class="tb">
+            <span>Email</span>
+          </div>
+          <div class="inputbox">
+            <input type="text" required="required" id="pwd1" class="tb">
+            <span>Password</span>
+          </div>
+<div class="btn">
+    <div class="inputbox">
+        <input type="button" value="Submit" onclick="login()">
     </div>
+    <div class="inputbox">
+        <input type="button" value="Reset" onclick="clearFunc()">
+          </div>
+        </div>
+        </form>
+      </div>
 </div>
 <div class="menu-bg" id="menu-bg"></div>
-<footer><p>Made by <span style="color: blue;">Prof@</span></p></footer>
+ <footer><p>Made by <span id="profa">Profa.</span></p></footer>
 
 </body>
 </html>
