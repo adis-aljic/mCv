@@ -43,7 +43,7 @@ during my education and part time jobs.` ]
         document.getElementById("cardAboutMe").innerHTML = ""
 
         if (document.getElementById("info").innerHTML == "") {
-            delayTextInCards(info,"info",400);   
+            delayTextInCards(info,"info",350);   
             // document.getElementById("addPic").innerHTML = ''
         }
             break;
