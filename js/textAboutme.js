@@ -87,3 +87,4 @@ document.getElementById(id).innerHTML += "<p>" + array[i] + "</p>"
             }
             }, interval);
     }
+

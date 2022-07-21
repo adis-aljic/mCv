@@ -1,4 +1,5 @@
 
+
 body {
   font-family: 'Roboto', sans-serif;
 
@@ -11,8 +12,10 @@ body {
   font-size: 0.85rem;
 }
 
+
 .uli{
     list-style: none; 
+
   }
 .uli::before {
   content: "\2022";  
@@ -26,7 +29,23 @@ body {
 transform: scale(1.1);
 color: red;
 cursor: pointer;
+border-color: blue;
+border-radius: 25px;
+border-style: solid;
 
+}
+.bars{
+  border-color: yellow;
+}
+.liBar:active{
+  border-color: white;
+  /* background-color: blue; */
+  border-radius: 25px;
+  border-style: solid;
+  
+}
+.liBar{
+  color:blue
 }
 #menu {
   z-index: 2;

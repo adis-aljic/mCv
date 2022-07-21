@@ -70,23 +70,23 @@ function func(parametar) {
             break;
         case 2: // activating card physics prof  on experience page
 
-            document.getElementById("card1exp").innerHTML = ""
-            document.getElementById("card3exp").innerHTML = ""
-            document.getElementById("edu").innerHTML = ""
-
-            document.getElementById("card4exp").innerHTML = ""
-            if (document.getElementById("card2exp").innerHTML == "") {
-                delayTextInCards(physicsProf,"card2exp",400);   
-            }
-            break;
+        document.getElementById("card1exp").innerHTML = ""
+        document.getElementById("card3exp").innerHTML = ""
+        document.getElementById("edu").innerHTML = ""
+        
+        document.getElementById("card4exp").innerHTML = ""
+        if (document.getElementById("card2exp").innerHTML == "") {
+            delayTextInCards(physicsProf,"card2exp",400);   
+        }
+        break;
         case 3: // activating card aditional experience on experience page
-            document.getElementById("card4exp").innerHTML = ""
-            document.getElementById("card1exp").innerHTML = ""
-            document.getElementById("edu").innerHTML = ""
-
-            document.getElementById("card2exp").innerHTML = ""
-            if (document.getElementById("card3exp").innerHTML == "") {
-                delayTextInCards(exp,"card3exp",400);   
+        document.getElementById("card4exp").innerHTML = ""
+        document.getElementById("card1exp").innerHTML = ""
+        document.getElementById("edu").innerHTML = ""
+        
+        document.getElementById("card2exp").innerHTML = ""
+        if (document.getElementById("card3exp").innerHTML == "") {
+            delayTextInCards(exp,"card3exp",400);   
             }
             break;
         case 4:        // put down all cards
