@@ -15,9 +15,10 @@ body {
 
 .uli{
     list-style: none; 
-
+    
   }
-.uli::before {
+  .uli::before {
+  transform: scale(1.8);
   content: "\2022";  
   color: blue; 
   display: inline-block; 
