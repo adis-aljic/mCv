@@ -52,11 +52,11 @@ h1 {font-size:1.5em;margin-bottom:55px;}
 }
 
 .btn:hover {
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.45);
+  box-shadow: 1 5px 15px 0 rgba(0, 0, 0, 0.45);
 }
 
 .btn:focus {
-  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 1 3px 10px 0 rgba(0, 0, 0, 0.4);
 }
 
 .btn > span,.btn-icon > i {
@@ -135,8 +135,15 @@ textarea{
   height:150px;
   width: 300px;
 resize: none;
+border-radius: 7px;
+border-color: blue;
 }
 
 #space{
   padding-right: 10px;
+}
+input{
+  border-radius: 7px;
+  border-color: dodgerblue;
+  opacity: 0.8;
 }
